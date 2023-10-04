@@ -1,0 +1,21 @@
+<resources>
+	<string name="invalid_credentials">Oops! Something you entered is not right. Please try again!</string>
+    <string name="error_msg_invalid_password">Invalid username and password combination. Please try again.</string>
+	<string name="error_msg_offline_login_error">Give us a chance to make your acquaintance by logging in once while online before you start working offline.</string>
+	<string name="error_msg_offline_login_error_not_previously_signed_in">Only the previously signed in user can work offline on this device.</string>
+	<string name="error">Error</string>
+	<string name="info">Info</string>
+	<string name="error_msg_generic">Something went wrong, Please try again.</string>
+	<string name="error_msg_please_try_again">Please try again.</string>
+	<string name="error_title_something_went_wrong">Something went wrong</string>
+	<string name="error_msg_generic_when_no_connection">Please check your WiFi or cellular data connection and try again.</string>
+    <string name="error_msg_session_expired">Session Expired. Please login again.</string>
+	<string name="error_minimum_char_required">Please type at least 3 characters to search</string>
+	<string name="error_check_internet_connection">Please check your internet connection</string>
+	<string name="error_cant_upload_all_orders">You can not upload all orders as following orders do not have any line items:\n\n%s</string>
+	<string name="error_cant_submit_all_orders">You can not submit all orders as following orders do not have any line items:\n\n%s</string>
+	<string name="error_service_request_not_sent">Service Request Not Sent</string>
+	<string name="error_service_request_failure_message">Your service request was not able to be sent. Please try again.</string>
+	<string name="error_inventory_name_already_exist">The inventory name already exists, please use an unique name.</string>
+	<string name="error_utn_number_input_message">Please provide a Unique Tracking Number in the following format: AANNNN (two alphabetic characters followed by four numeric digits).</string>
+</resources>

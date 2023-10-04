@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="server_locations">
+        <item>PMODDev2</item>
+        <item>PMODQa2</item>
+        <item>PMODStg</item>
+        <item>PMODStgMock</item>
+        <item>Release</item>
+    </string-array>
+</resources>

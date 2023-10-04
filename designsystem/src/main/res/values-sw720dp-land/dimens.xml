@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!--9 inch tablet landscape dimension file -->
+<resources>
+    <!-- START:: Used for Rescaling ui -->
+
+
+    <!--For Login Screen-->
+    <dimen name="width_logo_login">254dp</dimen>
+    <dimen name="height_logo_login">184dp</dimen>
+    <dimen name="top_margin_logo_login">0dp</dimen>
+    <dimen name="top_margin_title_login">180dp</dimen>
+    <dimen name="start_margin_login">562dp</dimen>
+    <dimen name="end_margin_login">286dp</dimen>
+    <dimen name="top_margin_username_login">30dp</dimen>
+    <dimen name="width_textinputbox_login">432dp</dimen>
+    <dimen name="height_edittext_login">48dp</dimen>
+    <dimen name="start_padding_edittext_login">16dp</dimen>
+    <dimen name="end_padding_edittext_login">16dp</dimen>
+    <dimen name="top_margin_textbutton_login">@dimen/gap_16</dimen>
+    <dimen name="font_size_textbutton_login">@dimen/sp_16</dimen>
+    <dimen name="height_actionbutton_login">54dp</dimen>
+    <dimen name="font_size_actionbutton_login">@dimen/sp_18</dimen>
+    <dimen name="top_margin_actionbutton_login">24dp</dimen>
+    <dimen name="margin_bottom">@dimen/gap_40</dimen>
+
+    <!-- END:: Used for Rescaling ui -->
+</resources>

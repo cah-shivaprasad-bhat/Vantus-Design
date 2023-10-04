@@ -1,0 +1,598 @@
+<resources>
+
+    <style name="HeadlineBlackLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="BCSHeadlineBlackLeft" parent="HeadlineBlackLeft">
+        <item name="android:letterSpacing">@dimen/letter_spacing_0_01</item>
+        <item name="android:layout_marginStart">@dimen/gap_4</item>
+        <item name="android:layout_marginTop">@dimen/gap_16</item>
+        <item name="android:layout_marginEnd">@dimen/gap_18</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingTop">@dimen/gap_4</item>
+        <item name="android:paddingBottom">@dimen/gap_4</item>
+    </style>
+
+    <style name="SubheadingBlackLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="WhatsNewLink">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="MegaHeadlineBlackLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="SubtitleBlackLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="SignUpCardHeader">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="SmallBodyBlackLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="LabelBlackLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="LabelLightGray">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/light_grey_btn_bg</item>
+    </style>
+
+    <style name="BodyBlackLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="OeVitalMediumBlack">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0_01</item>
+        <item name="android:textColor">@color/mine_shaft</item>
+    </style>
+
+    <style name="OeVitalMediumBlackSmall">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0_01</item>
+        <item name="android:textColor">@color/mine_shaft</item>
+    </style>
+
+    <style name="HeadlineBlackCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="SubheadingBlackCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="SubheadingToolbarBlackCenter">
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_8</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="BodyBlackCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_8</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="SmallBodyBlackCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_10</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="SmallSpaceBodyBlackCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_6</item>
+        <item name="android:textColor">@color/text_dark_grey</item>
+    </style>
+
+    <style name="TextViewTitleLogin">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="SubtitleBlackCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="SubtitleToolbarBlackCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_4</item>
+        <item name="android:paddingStart">@dimen/gap_3</item>
+        <item name="android:paddingEnd">@dimen/gap_3</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="HeadlineBlackRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="ClearAllTextBlueRight">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/gap_16</item>
+        <item name="android:padding">@dimen/gap_16</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_4</item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0_02</item>
+        <item name="android:textColor">@color/sky_blue</item>
+    </style>
+
+    <style name="SmallBodyDarkGreyLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/brownish_grey</item>
+    </style>
+
+    <style name="BodyDarkGreyCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/brownish_grey</item>
+    </style>
+
+    <style name="SmallBodyBlueLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/dark_grey_blue</item>
+    </style>
+
+    <style name="SubheadingBlueCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/dark_grey_blue</item>
+    </style>
+
+    <style name="SubtitleBlueCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/dark_grey_blue</item>
+    </style>
+
+    <style name="LabelBlueCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/dark_grey_blue</item>
+    </style>
+
+    <style name="HeadlineWhiteLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BodyWhiteLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="XlHeadlineWhiteLeft">
+        <item name="android:textSize">34sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SmallBodyWhiteLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SubtitleWhiteLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MiniTitleWhiteLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LHeadlineWhiteCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HeadlineWhiteCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SubheadingWhiteCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BodyWhiteCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SmallBodyWhiteCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SubtitleWhiteCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LabelWhiteCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SubheadingCardinalRedCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/cherry_red</item>
+    </style>
+
+    <style name="BodyAaGreyLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="SmallBodyAaGreyLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="SubtitleAaGreyLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="SubheadingAaGreyCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="BCSDialogHeading" parent="HeadlineBlackLeft">
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/cod_gray</item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0_01</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_6</item>
+        <item name="android:layout_marginStart">@dimen/gap_12</item>
+        <item name="android:layout_marginTop">@dimen/gap_16</item>
+        <item name="android:layout_marginEnd">@dimen/gap_8</item>
+    </style>
+
+    <style name="BCSDialogSubheading" parent="SubheadingAaGreyCenter">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_6</item>
+        <item name="android:textColor">@color/cod_gray</item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0_01</item>
+        <item name="android:text">@string/submit_success_duplicate_subtext</item>
+        <item name="android:layout_marginStart">@dimen/gap_8</item>
+        <item name="android:layout_marginTop">@dimen/gap_20</item>
+        <item name="android:layout_marginEnd">@dimen/gap_18</item>
+        <item name="android:drawablePadding">@dimen/gap_8</item>
+    </style>
+
+    <style name="SubmitDialogAccountLayout">
+        <item name="android:layout_marginStart">@dimen/gap_8</item>
+        <item name="android:layout_marginTop">@dimen/gap_12</item>
+        <item name="android:layout_marginEnd">@dimen/gap_8</item>
+    </style>
+
+    <style name="LabelAaGreyCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="SubtitleAaLightGreyCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">#888888</item>
+    </style>
+
+    <style name="OrderHeadlineBlackLeft">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/zeus</item>
+    </style>
+
+    <style name="IneligibleLabelBlackCenter">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_16</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_3</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@drawable/bg_quantity_edit_text_box_orange</item>
+        <item name="android:textColor">@color/mine_shaft</item>
+    </style>
+
+    <style name="IneligibleLabelHeaderBlackCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.16</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:textColor">@color/zeus</item>
+        <item name="android:padding">@dimen/gap_4</item>
+        <item name="android:background">@color/cardinal_orange</item>
+    </style>
+
+    <style name="PONameLabelHeaderBlack">
+        <item name="android:layout_marginStart">@dimen/gap_12</item>
+        <item name="android:layout_marginTop">@dimen/gap_10</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:drawablePadding">@dimen/gap_6</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/OrderHeadlineBlackLeft</item>
+    </style>
+
+    <style name="BCSBodyBlueLeft" parent="BodyAaGreyLeft">
+        <item name="android:lineSpacingExtra">@dimen/sp_2</item>
+        <item name="android:textColor">@color/grey_blue</item>
+        <item name="android:layout_marginTop">@dimen/gap_8</item>
+        <item name="android:layout_marginEnd">@dimen/gap_38</item>
+    </style>
+
+    <style name="RecentActivitySubtitleAaGreyCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_4</item>
+        <item name="android:textColor">@color/cod_gray</item>
+    </style>
+
+    <style name="RecentActivityCountTextView">
+        <item name="android:layout_width">@dimen/gap_0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:drawablePadding">@dimen/gap_5</item>
+        <item name="android:padding">@dimen/gap_8</item>
+        <item name="android:textAppearance">@style/SmallBodyBlackLeft</item>
+        <item name="android:drawableStart">@drawable/ic_search_black_24dp</item>
+    </style>
+
+    <style name="receiving_service_request_item_issue_invoice_number_text">
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/dove_gray</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:layout_marginStart">@dimen/gap_12</item>
+        <item name="android:layout_marginTop">@dimen/gap_14</item>
+        <item name="android:layout_marginEnd">@dimen/gap_12</item>
+    </style>
+
+    <style name="receiving_service_request_item_issue_shipment_number">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:layout_marginStart">@dimen/gap_12</item>
+        <item name="android:layout_marginTop">@dimen/gap_8</item>
+        <item name="android:layout_marginEnd">@dimen/gap_12</item>
+        <item name="android:layout_marginBottom">@dimen/gap_14</item>
+        <item name="android:textColor">@color/mine_shaft</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="receiving_service_request_form_productEditQty">
+        <item name="background">@drawable/bg_transparent</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:ems">4</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">numberSigned</item>
+        <item name="android:maxLength">3</item>
+    </style>
+
+    <style name="receiving_service_request_item_issue_tote_label">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:text">@string/receiving_item_issue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+
+    <style name="smallTextCameraMagnifierText">
+        <item name="android:paddingTop">@dimen/gap_3</item>
+        <item name="android:paddingBottom">@dimen/gap_3</item>
+        <item name="android:paddingStart">@dimen/gap_5</item>
+        <item name="android:paddingEnd">@dimen/gap_5</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0_01</item>
+        <item name="android:lineSpacingExtra">@dimen/sp_24</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

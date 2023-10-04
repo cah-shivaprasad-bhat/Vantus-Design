@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="any_future_component">
+
+        <attr name="custom_component" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="FilterByCategoryButton">
+        <attr name="buttonText" format="string" />
+        <attr name="isChosen" format="boolean" />
+        <attr name="isExpanded" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="UIForgotPasswordErrorView">
+        <attr name="errorMessageStyle" format="flags">
+            <flag name="LoginFailed" value="1"/>
+            <flag name="InvalidUserCredentials" value="2"/>
+        </attr>
+        <attr name="errorTitle" format="string" />
+        <attr name="errorMessage1" format="string" />
+        <attr name="errorMessage2" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="AuthenticationTypeView">
+        <attr name="title" format="string" />
+        <attr name="subtitle" format="string" />
+        <attr name="authIcon" format="reference" />
+        <attr name="authIconMarginLeft"  format="dimension"/>
+        <attr name="authIconMarginRight"  format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomTextInputLayout">
+        <attr name="errorMessage" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomAlertBadgeView">
+        <attr name="count" format="string" />
+        <attr name="background" format="reference" />
+        <attr name="countTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomQuantityUpdateView">
+        <attr name="quantity" format="integer" />
+        <attr name="isDisabled" format="boolean" />
+    </declare-styleable>
+</resources>

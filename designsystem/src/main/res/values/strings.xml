@@ -1,3 +1,1102 @@
 <resources>
-    <string name="app_name">designsystem</string>
+    <string name="app_name">+ Order Express</string>
+
+    <!-- splash screen -->
+    <string name="lock_screen_description">Enter your device PIN to continue</string>
+
+    <!-- debug config -->
+    <string name="server_location">Server Location</string>
+    <string name="proceed">Proceed</string>
+
+    <!-- login -->
+    <string name="welcome_back">Welcome!</string>
+    <string name="welcome_screen">"Welcome to the \nall new Order \nExpress "</string>
+    <string name="whats_new">Check out what\'s new</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="password_reset_guide">Password reset guide</string>
+    <string name="sign_in">Sign In</string>
+    <string name="biometric_login_title">Use your biometrics to sign in to Order Express</string>
+    <string name="biometric_login_title_setup">Use your biometrics to sign in to Order Express</string>
+    <string name="login_with_your_password">Login with your password</string>
+    <string name="current_username">Username : %s</string>
+    <string name="crash_message">"Something went wrong, redirected to login screen."</string>
+    <string name="please_enter_username">Please enter username.</string>
+    <string name="please_enter_password">Please enter password.</string>
+    <string name="file_already_exits">File already exist</string>
+
+    <!-- addl security -->
+    <string name="would_you_like_to_use_android_authentication">Would you like to use fingerprint login?</string>
+    <string name="addl_security_message">Sign in the app the way you unlock your phone, It\'s quick and secure</string>
+    <string name="biometric_auth_message">Activate biometric authentication to log in to your account with your fingerprint. It’s quick and secure!</string>
+    <string name="sure">Sure!</string>
+    <string name="i_ll_set_it_up_later">I’ll set it up later</string>
+
+    <!--Home -->
+    <string name="home">Home</string>
+    <string name="orders">Orders</string>
+    <string name="feedback">Feedback</string>
+    <string name="message_center">Message Center</string>
+    <string name="recent_activity">Recent App Activity</string>
+    <string name="delivery_closure">Delivery Closure</string>
+    <string name="more">More</string>
+    <string name="receiving">Receiving</string>
+
+    <!-- Audit List -->
+    <string name="account">Account</string>
+    <string name="search">Search</string>
+    <string name="audits">Audits</string>
+    <string name="cart">Cart</string>
+    <string name="debug_config_message">Choose a server which you want to use for testing.\nPlease ensure that you have
+        cleared the data of the app from your Device Settings.
+    </string>
+    <string name="you_ve_got_this">You’ve got this!</string>
+    <string name="you_ve_completed">You’ve Completed your audits for this week</string>
+    <string name="n_n_products_audited">%1$d/%2$d products audited</string>
+    <string name="n_n_product_audited">%1$d/1 product audited</string>
+    <string name="on_hand">On Hand</string>
+    <string name="ndc_number">NDC: %s</string>
+    <string name="empty"> </string>
+    <string name="back">Back</string>
+    <string name="confirm_count">Confirm Count</string>
+    <string name="submit_count_n_n">Submit Confirmed Items (%1$d/%2$d)</string>
+    <string name="unsubmitted_audits_title">Un-submitted Audits</string>
+    <string name="unsubmitted_audits_msg">You have audit counts that have not been submitted. Any un-submitted audits
+        will be lost if you continue. Do you want to proceed?
+    </string>
+
+    <string name="cimply_amazing">CIM-ply amazing!</string>
+    <string name="fetching_new_audits">Fetching new audits</string>
+    <string name="fetching_latest_counts">Fetching latest counts…</string>
+    <string name="time_for_break">Time for a quick break!\n Your next set of audits will be ready in about 15 minutes
+    </string>
+    <string name="submitting_completed_audits">Submitting completed audit groups…</string>
+    <string name="double_dash">--</string>
+    <string name="audit_submitted">Audit Submitted</string>
+    <string name="not_available">NOT AVAILABLE</string>
+    <string name="na">NA</string>
+    <string name="n_a">N/A</string>
+
+    <!-- Account -->
+    <string name="selected">SELECTED</string>
+    <string name="tap">Tap</string>
+    <string name="change">Change</string>
+    <string name="change_account">Change account</string>
+    <string name="cim">CIM</string>
+    <string name="account_selected">Account Selected</string>
+    <string name="load_more">Load More</string>
+    <string name="initial_account_info">You must select an account to continue.</string>
+
+    <!-- Orders -->
+    <!-- Create Orders -->
+    <string name="po_details">Purchase Order Details</string>
+    <string name="po_name">P.O. Name (Optional)</string>
+    <string name="poMemo">P.O. Memo (Optional)</string>
+    <string name="create_order">Create Order</string>
+    <string name="po_memo">Enter P.O. Memo (Optional)</string>
+    <string name="order_with_name_already_exist">Order with same name already exist.</string>
+    <string name="submit_failed">"submit failed"</string>
+    <string name="upload_failed">upload failed</string>
+    <string name="upload_failed_api_success">submit failed but upload is success so check there</string>
+
+    <!--common strings -->
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="retry">Retry</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="turnoff">Turn Off</string>
+
+    <!-- search order -->
+    <string name="search_product_title">Search</string>
+    <string name="search_product">Search Products</string>
+    <string name="search_accounts">Search Accounts</string>
+    <string name="scan">Scan</string>
+    <string name="carts">Cart</string>
+    <string name="new_order">New Order</string>
+    <string name="create_new_order">Create New Order</string>
+    <string name="coming_soon">Coming Soon!</string>
+    <string name="create_a_new_order">Create a New Order</string>
+    <string name="upload_confirmation_dailog">upload_confirmation_dailog</string>
+    <string name="best_alternate">YOUR BEST ALTERNATE</string>
+    <string name="suggested_alternate">SUGGESTED ALTERNATE</string>
+    <string name="no_alternate">NO EXACT ALTERNATE AVAILABLE</string>
+    <string name="no_alternate_error">Try a different item or for more information please try searching on the Order Express website.</string>
+
+    <!-- Product Details -->
+    <string name="product_details">Product Details</string>
+    <string name="cin_text">CIN</string>
+    <string name="cin_text_with_colon">CIN:</string>
+    <string name="nonreturnable">Non-Returnable</string>
+    <string name="updated_on">Updated on :</string>
+    <string name="retail_price">Retail Price</string>
+    <string name="retail_price_with_colon">Retail Price:</string>
+    <string name="retail_price_with_colon_format">Retail Price: %s</string>
+    <string name="retail_price_with_colon_and_symbol">Retail Price: $%s</string>
+    <string name="retail_label_with_colon_and_symbol">Retail: $%s</string>
+    <string name="upc">UPC</string>
+    <string name="upc_with_colon">UPC:</string>
+    <string name="form">Form</string>
+    <string name="contract_alias">Contract Alias</string>
+    <string name="strength">Strength</string>
+    <string name="returnable">Returnable</string>
+    <string name="non_returnable">Not Returnable</string>
+    <string name="alternates">Alternates</string>
+    <string name="no_alternates">No Alternates</string>
+    <string name="add_to_order">Add to Order</string>
+    <string name="add_alternate">Add Alternate to Order</string>
+
+    <!-- search results -->
+    <string name="search_ndc">NDC: %s</string>
+    <string name="search_cin">CIN: %s</string>
+    <string name="search_uoi">UOI: $%s</string>
+    <string name="search_uoi_na">UOI: N/A</string>
+    <string name="search_upc">UPC: %s</string>
+    <string name="search_zero">0.0</string>
+    <string name="price_unavailable">Price Unavailable</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="search_MFR">MFR: %s</string>
+    <string name="search_amu">AMU: %s</string>
+    <string name="search_na">N/A</string>
+    <string name="source">SOURCE</string>
+    <string name="something_went_wrong">Something went wrong please try again!</string>
+    <string name="something_went_wrong_only">Something went wrong</string>
+    <string name="nothing_to_see_here">Nothing to see here!</string>
+    <string name="search_sub_text">Search products and add them to this order.</string>
+    <string name="order_empty_message">This order is empty. You can use the search or \n scan tools to add items to this order.</string>
+    <string name="zero_lines_order">0 lines in this order</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="more_details">More Details</string>
+    <string name="value_in_dollars">$%s</string>
+    <string name="value_in_dollars_asterisk">$%s*</string>
+    <string name="refresh_jwt_token_channel_name">Refresh access token</string>
+    <string name="offline_catalog_product_fetch_channel_name">Offline catalog product fetch</string>
+    <string name="refresh_jwt_token_channel_description">This channel is used for refreshing access token so that we can
+        provide you uninterrupted service
+    </string>
+    <string name="offline_catalog_product_fetch_description">This channel is used for offline catalog product fetch to improve product search and scan performance</string>
+    <string name="refresh_jwt_token_msg">Fetching new access token</string>
+    <string name="offline_catalog_fetch_msg">Fetching offline catalog products</string>
+    <string name="search_error_message">We couldn"'"t find \"%1$s\".\nIt may be an ineligible or discontinued item. \n\nTry again or for more information please try searching on the Order Express website".</string>
+    <string name="search_error_message_with_ineligible">We couldn"'"t find \"%1$s\".\nIt may be an ineligible or discontinued item. \n\nTry again by unchecking the Hide Ineligible option or for more information please try searching on the Order Express website".</string>
+    <string name="search_error_message_with_offline_catalog">We couldn"'"t find \"%1$s\".\nTry again by entering the complete CIN, NDC, or UPC only".</string>
+    <string name="item_added_to_order_name">Item added to %s</string>
+    <string name="item_replaced_in_order_name">Item replaced in %s</string>
+    <string name="item_added_to_location" formatted="false">Item added to %s in %s</string>
+    <string name="go_to_order">Go to Order</string>
+    <string name="quantity_n">Qty: %s</string>
+    <string name="product_thumbnail">Product Thumbnail</string>
+    <string name="stock_image">Stock Image</string>
+    <string name="plus_button">Plus Button</string>
+    <string name="minus_button">Minus Button</string>
+    <string name="returnable_image">Returnable Image</string>
+    <string name="not_eligible_to_order">NOT ELIGIBLE TO ORDER</string>
+
+    <!-- All Orders-->
+    <string name="all_mobile_orders">All Mobile Orders</string>
+    <string name="cart_total_value">%s\nCart Total</string>
+    <string name="order_total_value">%s\nOrder Total</string>
+    <string name="price_format">$%s</string>
+    <string name="continue_on_desktop">Continue On Desktop</string>
+    <string name="submit">Submit</string>
+    <string name="c2">C2</string>
+    <string name="non_c2">non-C2</string>
+    <string name="place_all_orders">Place All Orders</string>
+    <string name="place_order">Place Order</string>
+    <string name="upload_order">Upload Order</string>
+    <string name="upload_all_order">Upload All Orders</string>
+    <string name="order_uploaded_successfully">Order uploaded!</string>
+    <string name="order_submitted_successfully">Order submitted!</string>
+    <string name="all_order_uploaded_successfully">All Orders uploaded!</string>
+    <string name="all_order_submitted_successfully">All Orders submitted!</string>
+    <string name="delete_confirmation_dialog_message">Would you like to delete order %s?</string>
+    <string name="tab_c2_orders">C2 Orders</string>
+    <string name="tab_non_c2_orders">Non-C2 Orders</string>
+    <string name="asterisk">*</string>
+
+    <!-- Backup Cart Orders-->
+    <string name="bcs_title_in_eo_mode">You have saved order express orders.\nTap to view.</string>
+    <string name="bcs_saved_orders_description">These are your recent Order Express orders.\nCopy them to your mobile cart to \ncontinue working.</string>
+    <string name="select_orders">Select Orders to Copy</string>
+    <string name="download_saved_orders">Copy Orders to Mobile</string>
+    <string name="download_saved_order">Copy Order to Mobile</string>
+    <string name="view_order">View Order</string>
+    <string name="saved_orders">Saved Order Express Orders</string>
+    <string name="last_ordered_date">Last ordered : </string>
+    <string name="empty_order">Empty Order</string>
+    <string name="no_lines_order">There are no lines in this order.</string>
+    <string name="back_saved_orders">Back to Saved Orders</string>
+    <string name="go_cart">Go to Cart</string>
+    <string name="c2order_not_restored">C2 orders are unavailable to copy to mobile</string>
+    <string name="order_restored">This order has been copied</string>
+    <string name="check_desktop_order">Check order history for order confirmation.</string>
+    <string name="error_dialog_title">Unable to open order details</string>
+    <string name="error_dialog_subtitle">This order cannot be viewed or copied to your mobile cart at this time.</string>
+    <string name="submit_success_duplicate_subtext">There is a duplicate order on the web. When Order Express is back online you will need to delete the original order in your web account.</string>
+
+    <!-- edit order -->
+    <string name="update_order">Update Order</string>
+    <string name="edit_purchase_order">Edit Purchase Order</string>
+    <string name="edit_po">Edit P.O.</string>
+    <string name="order_details_updated">Order details updated!</string>
+    <string name="edit_po_and_memo">Edit P.O. Name and memo</string>
+
+    <!-- stock status -->
+    <string name="product_dc_out">DC Out</string>
+    <string name="manufacturer_discontinued">Manufacturer Discontinued</string>
+    <string name="manufacturer_out">Manufacturer Out</string>
+    <string name="product_dc_discontinued">DC Discontinued</string>
+    <string name="product_not_stocked">Not Stocked</string>
+    <string name="product_product_allocation">Product Allocation</string>
+    <string name="product_alt_ware_house">Alternate Warehouse</string>
+    <string name="product_drop_ship">Drop Ship</string>
+    <string name="product_new_item">New Item</string>
+    <string name="product_inventory_low_stock">Inventory LOW STOCK</string>
+    <string name="product_call_to_order">Call To Order</string>
+    <string name="product_unknown">Unknown</string>
+    <string name="product_in_stock_view_display">In Stock</string>
+    <string name="product_out_of_stocked_view_display">Low Stock</string>
+    <string name="product_low_stock_inventory">Low Stock/Inventory</string>
+    <string name="stock_status">Stock Status</string>
+
+    <string name="tap_to_start_scanning">Tap to start scanning</string>
+    <string name="permission_denied_camera">You can not use scan feature since You have not provided the required
+        permission
+    </string>
+
+    <string name="permission_denied_phone_state">Unable to fetch Network type since You have not provided the required permission</string>
+    <string name="permission_denied_camera_enable_in_settings">You do not have permission, go to settings and enable
+        it
+    </string>
+    <string name="permission_denied_phone_state_enable_in_settings">Unable to fetch Network type, go to settings and enable
+        Phone permission
+    </string>
+    <string name="settings">Settings</string>
+    <string name="remove">Remove</string>
+    <string name="this_item_has_been_added_to_your_order">This item has been added to your order</string>
+    <string name="this_item_has_been_updated_to_your_order">Quantity updated</string>
+    <string name="continue_ordering">Continue Ordering</string>
+    <string name="continue_browsing">Continue Browsing</string>
+    <string name="go_to_new_location_text">Go to %s</string>
+    <string name="item_not_found">Item Not Found</string>
+    <string name="scan_not_found_info">Check the bar code number, enter the number in the search bar or scan another</string>
+    <string name="we_are_working_search_manually">We\'re working on a solution. Please check back soon or try searching manually</string>
+    <string name="enter_cdc_number">Enter CIN / NDC / UPC Number</string>
+    <string name="enter_receiving_search_number">Enter CIN / NDC Number</string>
+    <string name="text_with_bullet">\u2022 %s</string>
+
+    <!--Home Fragment Strings-->
+    <string name="take_a_survey"><u>Take a quick survey</u></string>
+    <string name="sign_up_button">Sign up Today!</string>
+    <string name="survey_text">How do you like the new Order Express mobile app?</string>
+    <string name="sign_up_card_header">Value delivered to your Inbox!</string>
+    <string name="sign_up_card_body">• Price Drops \n• Generic Launches .\n</string>
+    <string name="sign_up_card_body_append">•
+        <b>
+            <i>And much more!</i>
+        </b>
+    </string>
+    <string name="complete_order_header"><b>Complete your orders</b></string>
+    <string name="complete_order_body">You have several open orders</string>
+    <string name="go_to_orders">Go to orders</string>
+
+    <!--Image Description Home Fragment-->
+    <string name="survey_image_description">Survey Image</string>
+    <string name="oe_image_description">oe insider Image</string>
+    <string name="survey_Bg_Image">Survey background Image</string>
+    <string name="complete_order_image_description">Complete Order Image</string>
+
+    <!-- upload success dialog -->
+    <string name="back_to_cart">Back to Cart</string>
+    <string name="go_to_dashboard">Go to Dashboard</string>
+    <string name="order_deleted">Order was deleted.</string>
+
+    <!-- more -->
+    <string name="android_authentication">Android Authentication</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_out_dialog_message">Any work not uploaded or submitted will be lost if a different user signs in to this device.</string>
+    <string name="version">Version</string>
+    <string name="attention">Attention</string>
+
+    <!--beta features-->
+    <string name="csos_submit_and_sign">CSOS Submit and Sign</string>
+    <string name="cart_sync">Sync cart</string>
+    <string name="full_screen_scanner">Full screen scanning</string>
+
+    <!-- whats new -->
+    <string name="whats_new_one_title">Submit Orders</string>
+    <string name="whats_new_one_message">You can now submit orders directly from the mobile app! Yes, finally!</string>
+    <string name="whats_new_one_sub_text">Add items to an order and submit\none or submit all.</string>
+
+    <string name="whats_new_two_title">Review Alternates</string>
+    <string name="whats_new_two_message">Grab the best deal already!</string>
+    <string name="whats_new_two_sub_text">Tap on the alternates button to see\nif you have a better item available.
+    </string>
+
+    <string name="whats_new_three_title">One tap audit</string>
+    <string name="whats_new_three_message">Completing your day’s audits is a breeze.</string>
+    <string name="whats_new_three_sub_text">Tap once to confirm, or tap and\nhold to change quantity.</string>
+
+    <!-- submit success dialog -->
+    <string name="all_order_submit_title">All orders in this account submitted</string>
+    <string name="single_order_submit_title">%s has been submitted!</string>
+    <string name="order_value">Order Value</string>
+    <string name="check_back_later_single_order_submit">Check the desktop for order confirmation</string>
+    <string name="check_back_later_all_order_submit">All non C2 orders have been submitted\nC2 orders were sent to
+        desktop\n\nCheck the desktop for order confirmation
+    </string>
+    <string name="login_to_oe_to_continue">Login to Order Express to continue working on your orders</string>
+    <string name="new_order_created">New order created</string>
+    <string name="new_c2_order_created">New C2 order created</string>
+
+    <!-- Receiving -->
+    <string name="receiving_modal_dialog_title">Welcome to Receiving!</string>
+    <string name="receiving_view_by">View By?</string>
+    <string name="receiving_view_by_fragment">View by</string>
+    <string name="receiving_shipments">Shipments</string>
+    <string name="receiving_invoices">Invoices</string>
+    <string name="receiving_allow_overages">Allow Overages?</string>
+    <string name="receiving_allow_overages_fragment">Allow Overages</string>
+    <string name="receiving_continue">Continue</string>
+    <string name="receiving_totes">Totes</string>
+    <string name="search_receiving">Search Receiving</string>
+    <string name="receiving_incomplete_message">"You've incomplete receiving items! Tap to view"</string>
+    <string name="receiving_issue">Tote Issue?</string>
+    <string name="receiving_issue_without_question">item issue</string>
+    <string name="receiving_today_with_count">Today (%s)</string>
+    <string name="receiving_previous_with_count">"Previously Incomplete (%s) "</string>
+    <string name="receiving_shipment">Shipment : %s</string>
+    <string name="receiving_shipment_number_label">Shipment Number</string>
+    <string name="receiving_invoice">Invoice : %s</string>
+    <string name="receiving_account_name" formatted="false">%s - %s</string>
+    <string name="receiving_products">%s/%s products received</string>
+    <string name="receiving_product" formatted="false">%s/%s product received</string>
+    <string name="receiving_totes_count" formatted="false">%s/%s Totes Received</string>
+    <string name="receiving_uploaded_totes_count" formatted="false">%s/%s Received</string>
+    <string name="receiving_tote">Tote %s</string>
+    <string name="receiving_capsules">%s</string>
+    <string name="receiving_ndc">NDC : %s</string>
+    <string name="receiving_tote_id">Tote ID : %s</string>
+    <string name="receiving_case_id">Case ID : %s</string>
+    <string name="receiving_tote_id_label">Tote ID</string>
+    <string name="receiving_delivered_date">Delivered: %s</string>
+    <string name="api_failed">API failed error</string>
+    <string name="date_format">MM/dd/yyyy</string>
+    <string name="no_new_orders_to_receive_today">No new orders to receive today!</string>
+    <string name="receiving_upload_totes">Upload Completed Totes (%1$d/%2$d)</string>
+    <string name="receiving_upload_totes_in_search">Upload Completed Tote</string>
+    <string name="receiving_totes_uploaded">%1$d/%2$d Totes Uploaded!</string>
+    <string name="receiving_shipment_or_invoice" formatted="false">%s : %s Completed</string>
+    <string name="quantity_editable_text_box_denominator">/%s</string>
+    <string name="receiving_service_request_submitted">Service Request Submitted!</string>
+    <string name="receiving_service_request_confirmation_note">A Cardinal Health representative will contact you within
+        24 hours to assist you with your request.
+    </string>
+    <string name="receiving_got_it">Got it</string>
+    <string name="receiving_service_request">Service Request</string>
+    <string name="receiving_name">Name</string>
+    <string name="receiving_phone_number">Phone Number</string>
+    <string name="receiving_email_address">Email Address</string>
+    <string name="receiving_missing_tote">Missing Tote</string>
+    <string name="receiving_missing_case">Missing Case</string>
+    <string name="receiving_wrong_tote">Wrong Tote</string>
+    <string name="receiving_wrong_case">Wrong Case</string>
+    <string name="receiving_damaged_product">Damaged Product</string>
+    <string name="receiving_outdated_product">Outdated Product</string>
+    <string name="receiving_overage">Overage</string>
+    <string name="receiving_shortage">Shortage</string>
+    <string name="receiving_other">Other</string>
+    <string name="receiving_mis_pick">Mis-pick</string>
+    <string name="receiving_contact_details">Contact Details</string>
+    <string name="receiving_hint_enter_comments">Enter Comments</string>
+    <string name="receiving_item_issue">Item Issue</string>
+    <string name="receiving_invoice_number_label">Invoice Number</string>
+    <string name="receiving_quantity_impacted">Quantity Impacted</string>
+    <string name="receiving_enter_reason">Enter Reason</string>
+    <string name="receiving_reason">Reason?</string>
+    <string name="receiving_tote_issue">Tote Issue</string>
+    <string name="receiving_case_issue">Item Issue</string>
+    <string name="receiving_submit_issue">Submit issue</string>
+    <string name="receiving_tote_number">Tote %s</string>
+    <string name="receiving_goto_shipment">Go to Shipment %s</string>
+    <string name="issue_reported">issue reported</string>
+
+    <!--Receiving ServiceRequest code to desc mapping-->
+    <string name="wrong_container">Wrong Container</string>
+    <string name="missing_container">Missing Container</string>
+    <string name="mis_pick">Mis-Pick</string>
+    <string name="damaged_product">Damaged Product</string>
+    <string name="product_overage">Overage</string>
+    <string name="product_short">Short</string>
+    <string name="outdated_product">Outdated Product</string>
+    <string name="other">Other</string>
+
+    <!-- trial code -->
+    <string name="preview_trial_code">Preview Trial Code</string>
+    <string name="trial_code">Trial Code</string>
+    <string name="trial_code_applied">Trial code applied.</string>
+    <string name="invalid_trial_code">Invalid Trial code.</string>
+    <string name="error_in_processing_trial_code">Error in processing the trial code, please try again</string>
+    <string name="receive_tote_as_is">Receive Tote</string>
+    <string name="received">RECEIVED</string>
+    <string name="overage">OVERAGE</string>
+    <string name="partial">PARTIAL</string>
+    <string name="full">FULL</string>
+    <string name="partial_cnt">Partial</string>
+    <string name="full_cnt">Full</string>
+    <string name="issue">ISSUE</string>
+    <string name="allow_overage">Allow Overages?</string>
+    <string name="overage_dialog">You are about to input an overage. Would you like to continue?</string>
+
+    <!--InventoryFragment -->
+    <string name="inventory">Inventory</string>
+    <string name="backorder">Backorder List</string>
+    <string name="create_inventory_title">Create new inventory</string>
+    <string name="create_inventory_name">Inventory Name</string>
+    <string name="create_location_name">Location Name</string>
+    <string name="current_price">Current Price</string>
+    <string name="last_price_paid">Last Cost Paid</string>
+    <string name="create_new_location">Create New Location</string>
+    <string name="cost_type">Cost Type</string>
+    <string name="count_type">Count Type</string>
+    <string name="create_inventory">Create Inventory</string>
+    <string name="locations">Locations</string>
+    <string name="location">Location</string>
+    <string name="lines">LINES</string>
+    <string name="lines_small">Lines</string>
+    <string name="line_small">Line</string>
+    <string name="lets_get_started_with_inventory">Let\'s get started with your inventory</string>
+    <string name="active_inventory">Active Inventory</string>
+    <string name="create_new_inventory">Create New Inventory</string>
+    <string name="all_inventories">All Inventories</string>
+    <string name="new_inventory">New Inventory</string>
+    <string name="no_existing_location">No existing locations</string>
+    <string name="add_location">Add location</string>
+    <string name="auto_create_location">Auto-Create locations</string>
+    <string name="share">Share</string>
+    <string name="upload">Upload</string>
+    <string name="create_a_new_location">Create a new location</string>
+    <string name="inventory_closed_inventory">CLOSED - %s</string>
+    <string name="inventory_inventory_value">Inventory Value: %s</string>
+    <string name="inventory_created_on">Created on %s</string>
+    <string name="edit_inventory">Edit Inventory</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="edit">Edit</string>
+    <string name="inventory_deletion_failed">Failed to remove the inventory</string>
+    <string name="add_to_inventory">Add to Inventory</string>
+    <string name="add_to_inventory_location">Add to %s</string>
+    <string name="add_product_to_inventory_add_primary_button_text">Add to Inventory</string>
+    <string name="inventory_product_deletion_failed">Failed to remove the product</string>
+    <string name="inventory_edit_location">Edit Location</string>
+    <string name="item_added_to_inventory">This item has been added to your location</string>
+    <string name="duplicate">duplicate</string>
+    <string name="full_count">Full Count</string>
+    <string name="partial_count">Partial Count</string>
+    <string name="backorder_details">Backorder Details</string>
+    <string name="auto_create">Auto-Create</string>
+
+    <!--Inventory Location -->
+    <string name="inventory_location_tag">AddInventoryLocation</string>
+    <string name="location_created">New Location Created!</string>
+    <string name="got_it">Got it</string>
+    <string name="item_added_to_location_name">Item copied to %s</string>
+    <string name="item_moved_to_location_name">Item moved to %s</string>
+    <string name="add_to_another_location">Add to another location</string>
+    <string name="back_to_source_location">Back to %s</string>
+    <string name="goto_location">Go to %s</string>
+    <string name="default_location_comment">"This location has been updated"</string>
+    <string name="inventory_location_details_share_generic_subject">Order Express Location File</string>
+    <string name="inventory_location_details_share_generic_body">
+        Please complete the following steps to finish your inventory\n\n
+        1. Send this file to the email address of your choice\n\n
+        2. Save the attachment to the computer(ex. Desktop, My Documents, etc.)\n\n
+        3. Import file into Order Express\n
+    </string>
+
+    <!-- Delete Inventory -->
+    <string name="delete_inventory_product_confirmation_dialog_info">Selecting Yes will also delete this product\’s inventory on the website and cannot be undone.</string>
+    <string name="delete_inventory_confirmation_dialog_info">Selecting Yes will also delete your saved inventory on the website and cannot be undone.</string>
+    <string name="delete_inventory_location_confirmation_dialog_info">Selecting Yes will also delete this location\'s inventory on the website and cannot be undone.</string>
+    <string name="delete_inventory_confirmation_positive_text">Yes</string>
+    <string name="delete_inventory_confirmation_negative_text">Cancel</string>
+    <string name="delete_inventory_confirmation_primary_info">Delete %s?</string>
+    <string name="delete_inventory_product_confirmation_primary_info" formatted="false">Delete %s from %s?</string>
+    <string name="delete_inventory_location_from_inventory_confirmation_primary_info" formatted="false">Delete %s from %s?</string>
+    <string name="last_ordered">Last ordered: %s</string>
+
+    <!-- Inventory Analytics -->
+    <string name="inventory_error_capturing_inventory_data">There is an issue with fetching Inventory data</string>
+    <string name="range" formatted="false">%s-%s</string>
+
+    <!--AuditMessageFragment-->
+    <string name="audit_message_title">Audits are for CIM customers only.</string>
+    <string name="audit_message_sub_title">Feeling CIMply left out?</string>
+    <string name="audit_message_email_message">Email: CIM-inquiries@cardinalhealth.com to learn more about Cardinal
+        Healthᵀᴹ Inventory Manager.
+    </string>
+    <string name="all_totes_uploaded">All totes uploaded</string>
+    <string name="back_to_receiving">Back to Receiving</string>
+    <string name="back_to_shipment">Back to Shipment</string>
+    <string name="shipment">Shipment</string>
+    <string name="invoice">Invoice</string>
+    <string name="no_existing_inventory">There are no inventories in your account.\nCreate a new inventory to begin.</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+    <string name="inventory_value">Inventory Value</string>
+    <string name="move">Move</string>
+    <string name="location_uploaded">Location Uploaded!</string>
+    <string name="closed_status">Closed</string>
+    <string name="search_key">Search</string>
+
+    <!--Message Center -->
+    <string name="no_message_right_now">You have no message right now.\n Check back later</string>
+    <string name="no_message_available_in_emergency_ordering_mode">No Message available in Emergency Ordering mode</string>
+    <string name="no_message_available_while_offline">No Message available while Offline.</string>
+    <string name="of">of</string>
+    <string name="requested_url_not_valid">Requested URL is not valid.</string>
+    <string name="alert">Alert</string>
+
+    <!--About -->
+    <string name="about">Contact Us</string>
+    <string name="report_problem">Report a Problem</string>
+    <string name="manage_features">Manage Features</string>
+    <string name="contact_us">Contact Us:</string>
+    <string name="divider">|</string>
+
+    <!-- scanning-->
+    <string name="price_check">Price Check</string>
+    <string name="ordering">Ordering</string>
+
+    <!--App Update-->
+    <string name="app_update_mandatory">There is an important mobile app update needed. You must update your version of the Order Express mobile app in order to use the app.</string>
+    <string name="app_update_optional">There is a newer version of the Order Express mobile app available.</string>
+    <string name="update_now">Update Now</string>
+    <string name="update_available">Update Available</string>
+
+    <!--Order History-->
+    <string name="order_history">Order History</string>
+    <string name="preferences">Preferences</string>
+    <string name="no_confirmed_orders_message">You do not have any confirmed orders to view right now. Please check again later.</string>
+    <string name="offline_no_confirmed_orders_message">No Order History available while Offline.</string>
+    <string name="eo_no_confirmed_orders_message">No Order History available in Emergency Ordering mode.</string>
+    <string name="not_seeing_current_information_message">You may not be seeing the most current information. Pull down to refresh your screen.</string>
+    <string name="indicator">!</string>
+    <string name="problem_with_your_order">Problem with your order?</string>
+    <string name="call_us">Call Us</string>
+    <string name="call_us_with_number"><u>Call us at </u></string>
+    <string name="no_drop_ship_orders_message">You do not have any drop ship orders to view right now. Please check again later.</string>
+    <string name="order_method">Order Method: %s</string>
+    <string name="sales_order">Sales Order #: %s</string>
+    <string name="po">PO #: %s</string>
+    <string name="order_status">Order Status: %s</string>
+    <string name="order_date">Order Date: %s</string>
+
+    <string name="biometric_suggestion_heading">Biometrics not enabled</string>
+    <string name="biometric_suggestion_heading_tablet">Set Up Biometric Authentication</string>
+    <string name="goto_settings">Go to Settings</string>
+    <string name="biometric_suggestion_message">Please turn on the biometric setting for this device</string>
+    <string name="biometric_suggestion_message_tablet">Set up biometric authentication in your device settings to activate it in the app.</string>
+    <string name="date">DATE</string>
+    <string name="search_your_order">Search Your Order</string>
+    <string name="qty_ordered">Qty Ordered</string>
+    <string name="not_available_with_lower">Not Available</string>
+    <string name="invalid">Invalid</string>
+    <string name="apply">Apply</string>
+
+    <string name="no_application_found_exception">Please check the browser settings on your device and try again</string>
+    <string name="view_all">View All</string>
+    <string name="net_price">Net Price</string>
+    <string name="authorable_header_aem_input_field_title_could_be_two_lines">Authorable Header - AEM input field Title - Could be two lines</string>
+    <string name="string_hash">#</string>
+
+    <string name="dashboard_blurb_message"><b>This page is not up to date.</b> please pull </string>
+    <string name="dashboard_blurb_message1"> down to refresh </string>
+    <string name="product_image">Product Image</string>
+    <string name="hide_ineligible">Hide Ineligible</string>
+    <string name="offline_search_hint">Search CIN / NDC / UPC</string>
+
+    <!-- Select Order -->
+    <string name="select_order_title">Select Order</string>
+    <string name="select_order_warning">This is a %s item. Select or create a %s order to add item.</string>
+    <string name="select_order_warning_empty">This is a %s item. Create a %s order to add item</string>
+    <string name="choose_select_order_dialog_title_scan">This is a %s item. Would you like to create a new order or add to existing?</string>
+    <string name="select_or_create_new_order">Select or Create a New Order</string>
+    <string name="order_radio_button_tag">Radio Button</string>
+    <string name="create_new_order_button_text">Create new order</string>
+    <string name="create_new_order_warning_text">This P.O. Name already exists. Please try another.</string>
+    <string name="replace">Replace</string>
+    <string name="number_of_results">%s results</string>
+    <string name="no_results">No results</string>
+    <string name="filter_by">Filter by:</string>
+    <string name="eo_confirmation_dialog">Your order(s) will be placed in emergency ordering mode</string>
+    <string name="eo_confirmation_content">Some of the data may not be up to date when you place this order.</string>
+    <string name="eo_review_order_button">Go Back and Review My Order(s)</string>
+    <string name="oe_place_order_btn">Place My Order(s)</string>
+    <string name="eo_place_order_dialog">EO_Place_order_dialog</string>
+
+    <string name="size">Size</string>
+    <string name="contract">Contract</string>
+    <string name="license_expired">License Expired</string>
+    <string name="licence_expiry_message">Your DEA license has expired. This account cannot order DEA regulated products until your license is renewed. %s</string>
+    <string name="place_order_license_expired">Your C2 orders have not been submitted. </string>
+    <string name="upload_order_license_expired">Your C2 orders have not been uploaded. </string>
+    <string name="go_back_to_cart">Go Back to Cart</string>
+    <string name="signature_required">Signature Required</string>
+    <string name="utn_message">The default Unique Tracking Number provided here is for convenience only. Cardinal makes no claims to the UTN validity and is not responsible for providing numbers meeting the DEA requirements. It the responsibility of the buyer to provide a number that is both unique and in sequence with respect to all CSOS orders sent by the buyer to all their suppliers. Please see the DEA regulations for CSOS orders for the rules regarding Unique Tracking Numbers.</string>
+    <string name="check_availability">Check Availability</string>
+    <string name="unique_tracking_number">Unique Tracking Number</string>
+    <string name="purchase_order">Purchase Order</string>
+    <string name="account_name">Account Name</string>
+    <string name="one_moment">One Moment</string>
+    <string name="interim_message">We need just a minute to ensure that we have everything in stock.</string>
+    <string name="duplicate_utn_number">Duplicate UTN Number</string>
+    <string name="duplicate_utn_number_message">You’ve entered a duplicate UTN, please confirm information and enter it again. </string>
+    <string name="renter_utn">Re-enter UTN</string>
+    <string name="save_for_later">Save for Later </string>
+    <string name="lot_to_process">That’s a lot to Process</string>
+    <string name="lot_to_process_message">We can notify you in the Message Center when your order is ready to sign.</string>
+    <string name="lot_to_process_message_need_a_minute">We are going to need a minute to get through this. Check your order history for a confirmation later</string>
+    <string name="notify_me">Notify Me</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="order_sign_not_authorized">The authorized signer has been notified.</string>
+    <string name="order_sign_authorized">Please review and sign your order.</string>
+    <string name="review_and_sign">Review and Sign</string>
+    <string name="review_order_details">Review Order Details</string>
+    <string name="c2_order_ready_to_sign">Your C2 order is ready to sign.</string>
+    <string name="sign_now">Sign Now</string>
+    <string name="signature_needed">Signature Needed</string>
+    <string name="signature_needed_top_message">Enter the password you created when registering your DEA certificate. If you did not register the password, Send for Signature will save on web and mobile for later.</string>
+    <string name="signature_needed_bottom_message">If you forgot your password, you can change it on Order Express. Please contact the customer Service Center at 800&#8211;326&#8211;6457 if you require additional assistance. </string>
+    <string name="signing_password">Signing Password</string>
+    <string name="order_has_been_sent">Your C2 order has been sent.</string>
+    <string name="view_your_order">View your confirmation in Order History.</string>
+    <string name="go_to_order_history">Go to Order History</string>
+    <string name="signature_processing">Signature Processing</string>
+    <string name="csos_password_blank_message">Please enter Signature Password</string>
+    <string name="audit_offline_not_audits_message">No audits available while offline.</string>
+    <string name="audit_eo_not_audits_message">No audits available in Emergency Ordering mode.</string>
+    <string name="no_inventories_available_while_offline">No inventories available while offline.</string>
+    <string name="no_inventories_available_in_emergency_ordering_mode">No inventories available in Emergency Ordering mode.</string>
+    <string name="error_host_code_1004">You have entered an incorrect signing password that you created when uploading your certificate. Please enter the correct password and try again.\n %s</string>
+    <string name="csos_additional_support">Please contact the Customer Service Center at 1-800-722-3444 if you require additional support.</string>
+    <string name="error_host_code_1007">Your DEA issued Digital Signing Certificate can no longer be used to electronically sign CSOS orders because it has expired or has been revoked by the DEA.\n %s</string>
+    <string name="error_host_code_1003">Technical Error while calling Axway endpoint.\n %s</string>
+    <string name="error_host_code_1006">User is not authorized to sign the order. First enroll with Cardinal Health before using Order Express CSOS.\n %s</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="go_back_to_order_history">Go Back to Order History</string>
+    <string name="dea_licence_expired">DEA License Expired</string>
+    <string name="technical_error">Technical Error</string>
+    <string name="gateway_error">That\'s a lot of Process</string>
+    <string name="upload_cart_gateway_error">We are going to need a minute to get through this. Check your website cart after sometime</string>
+    <string name="unauthorized_to_sign">Unauthorised to Sign</string>
+    <string name="incorrect_sign_in_password">Incorrect Signing Password</string>
+    <string name="no_new_features_available_message">No New Features available at this moment</string>
+    <string name="new_tag">New tag</string>
+    <string name="oe_new_terms_and_conditions">By checking the box below, you agree that Cardinal Health is not liable for any loss, whether such loss is direct, indirect, special, or consequential suffered by any party as a result of their use of this new feature. Any use of this new feature is done at the user’s own risk and the user will be solely responsible for any damage or loss of data that results from such activities.</string>
+    <string name="oe_new_feature_disclaimer">The purpose of providing this new feature is to gauge interest, gather feedback on usability, performance and stability, and to identify errors or defects.</string>
+
+    <string name="filter">Filter</string>
+
+    <!--Allowed input format for UTN-->
+    <string name="allowed_utn_input_format">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890</string>
+    <string name="recommended">Recommended</string>
+    <string name="expand_or_collapse">expand or collapse</string>
+    <string name="show_nn_results">Show %s results</string>
+    <string name="i_agree_to_the_terms_and_conditions">I agree to the terms &amp; conditions</string>
+    <string name="new_feature_opt_in">New Feature Opt-in</string>
+    <string name="agree_to_terms_and_conditions">Agree to Terms and Conditions</string>
+    <string name="replace_all">Replace All</string>
+    <string name="oa">Opportunity Analysis</string>
+    <string name="oa_non_source">Non-Source (Current)</string>
+    <string name="ignore">Ignore</string>
+    <string name="more_alternates">More Alternates</string>
+    <string name="tabs30">30 Tabs</string>
+    <string name="results_8">%s results</string>
+    <string name="oa_temp_uoi">UOI:$0.49</string>
+    <string name="oa_temp_ndc">NDC: 68180-0478-01</string>
+    <string name="oa_temp_tab_name1">SIMAVASTATIN 10MG 30</string>
+    <string name="oa_label_order">Order</string>
+    <string name="collapse">collapse</string>
+    <string name="oa_temp_order_name">Order - 1234567891</string>
+    <string name="new_4">4 New</string>
+    <string name="oa_replaced">Replaced</string>
+
+    <!--  String resources related to Auto Order Ceation  -->
+    <string name="aoc_buy_it_again_tools_text">Buy it again</string>
+    <string name="aoc_font_family_sans_serif">sans-serif</string>
+    <string name="aoc_sub_header_text_hint">Over the counter</string>
+    <string name="aoc_sub_header_text_others">Other</string>
+    <string name="aoc_image_content_description_text">ProductImage</string>
+    <string name="aoc_price_tools_text">$4.65</string>
+    <string name="aoc_source_text">source</string>
+    <string name="aoc_product_quantity_text">30 TABS</string>
+    <string name="aoc_product_description_text">10 mg</string>
+    <string name="aoc_add_to_order_button_text">Add to order</string>
+    <string name="aoc_add_button_text">Add</string>
+    <string name="aoc_added_button_text">Added</string>
+    <string name="aoc_update_button_text">Update</string>
+    <string name="aoc_quantity_one_text">1</string>
+    <string name="aoc_add_button_content_description">Add Image Content Description</string>
+    <string name="aoc_font_family_sans_serif_medium">sans-serif-medium</string>
+    <string name="aoc_show_all_button_text">Show all %s</string>
+    <string name="aoc_plus">+%s</string>
+    <string name="aoc_recommendations_appbar_title">Selected for you</string>
+    <string name="aoc_add_to_order">Add to order</string>
+    <string name="unable_to_fetch_accounts">Unable to fetch Accounts</string>
+    <string name="unable_to_fetch_accounts_contact_details">Please contact customer support at 1-800-326-6457 to report the issue.</string>
+    <string name="unable_to_fetch_accounts_call">Call %s</string>
+    <string name="unable_to_fetch_accounts_back_to_login">Back to Login</string>
+
+    <!--Cart Sync string-->
+    <string name="dont_show_this_again">Don’t show this again</string>
+    <string name="dont_show_me_this_again">Don’t show me this again</string>
+    <string name="unable_to_sync_cart">Unable to sync cart</string>
+    <string name="done">Done</string>
+    <string name="string_cart_sync_status_dialog_text">Syncing your cart...</string>
+    <string name="alternate_sort_by">Sort by</string>
+    <string name="alternate_sort_results">Sort results</string>
+    <string name="upload_needed">Upload Needed</string>
+
+    <string name="content_des_img">Image</string>
+    <string name="lowest_price">Lowest price</string>
+    <string name="on_contract">On-Contract</string>
+    <string name="last_order_date">Last order date</string>
+
+    <string name="date_small">Date</string>
+    <string name="time_of_day">Time of day</string>
+    <string name="activity_type">Activity Type</string>
+    <string name="user">User</string>
+    <string name="clear_all">Clear All</string>
+    <string name="order_activity">Order Activity</string>
+
+    <!-- String resources related to Recent Activity -->
+    <string name="no_data_available_primary_text">There is no recent %s activity for this account.</string>
+    <string name="no_data_available_secondary_text">Activity tracker can only show actions made\n within the past %s days on the mobile app.</string>
+    <string name="enable_cs_primary_text">Cart Sync must be enabled to view %s activity.</string>
+    <string name="enable_cs_secondary_text">Enable Cart Sync within New Feature on the More page.</string>
+
+    <!-- Recent Activity -->
+    <string name="last_number_of_days">Last %s days</string>
+    <string name="timeStamp">%s</string>
+    <string name="at_order">Order %s</string>
+    <string name="order_number">Order %s activity</string>
+    <string name="inventory_name">Inventory %s activity</string>
+    <string name="at_date_created">Date Created %s</string>
+    <string name="at_filter">Filter</string>
+    <string name="at_activity_details_time_by_name">%s by %s</string>
+    <string name="at_activity_details_quantity_increased">Quantity was increased to %s</string>
+    <string name="at_activity_details_quantity_decreased">Quantity was decreased to %s</string>
+    <string name="at_quantity_changed">Quantity was changed to %s</string>
+    <string name="at_activity_details_order_submitted">Order was submitted</string>
+    <string name="at_activity_details_order_deleted">Order was deleted</string>
+    <string name="at_activity_details_order_created">Order created</string>
+    <string name="at_activity_details_qty_label">Qty:</string>
+    <string name="at_activity_details_total_label">Total:</string>
+    <string name="at_activity_details_source_label">Source</string>
+    <string name="at_activity_details_NDC_label">NDC:</string>
+    <string name="at_activity_details_AMU_label">AMU:</string>
+    <string name="at_activity_details_UOI_label">UOI:</string>
+    <string name="at_activity_details_POMobileNumber_label">Po #: Mobile</string>
+    <string name="at_activity_details_OrderMethod_label">Order Method:</string>
+    <string name="at_activity_details_OrderDate_label">Order Date:</string>
+    <string name="at_activity_details_lines">%s Lines</string>
+    <string name="at_activity_details_audits_on_hand">On hand:</string>
+    <string name="at_activity_details_inventory_location_count">Count:</string>
+    <string name="at_activity_shipment_id_account">Shipment: %s - Account: %s</string>
+    <string name="at_activity_details_try_again">or try again.</string>
+    <string name="at_activity_details_clear_search">Clear search</string>
+    <string name="at_activity_details_view_new_feature"><u>View New Features</u></string>
+    <string name="at_activity_details_search_error_message">Sorry, no matches for \"%1$s\" \nfound within activity tracker.</string>
+    <string name="at_order_method">Order Express</string>
+    <string name="at_inventory_created">Inventory created</string>
+    <string name="at_inventory_deleted">Inventory deleted</string>
+    <string name="at_location_created">Location created</string>
+    <string name="at_location_deleted">Location deleted</string>
+    <string name="at_product_added">Product added</string>
+    <string name="at_product_removed">Product removed</string>
+    <string name="at_inventory_location_name">Name:</string>
+    <string name="at_inventory_location_details_product_removed">Product removed</string>
+    <string name="at_inventory_location_details_product_moved">Product moved to %s</string>
+    <string name="at_inventory_location_details_product_copied">Product copied to %s</string>
+    <string name="at_inventory_location_details_location">Location %s</string>
+    <string name="at_receiving_text">Received: </string>
+    <string name="at_receiving_product_received_by_scan">Products received by scan </string>
+    <string name="at_receiving_product_received_by_manually">Products manually received </string>
+    <string name="at_received_quantity">%s/%s</string>
+    <string name="at_receiving_header">Shipment #%s</string>
+    <string name="at_audit_group_submitted">Audit group was submitted</string>
+    <string name="at_audit_confirmed">Audit Confirmed</string>
+    <string name="at_audit_count">%s/%s products audited</string>
+    <string name="at_random_month">June</string>
+    <string name="at_random_year_integer">2022</string>
+    <string name="at_sun">SUN</string>
+    <string name="at_mon">MON</string>
+    <string name="at_tue">TUE</string>
+    <string name="at_wed">WED</string>
+    <string name="at_thu">THU</string>
+    <string name="at_fri">FRI</string>
+    <string name="at_sat">SAT</string>
+    <string name="at_start_date_warning">Start date cannot be after the end date</string>
+    <string name="at_end_date_warning">End date cannot be before the start date</string>
+    <string name="at_date_format">mm/dd/yyyy</string>
+    <string name="at_tabs_values_selected">Monday, Tuesday</string>
+    <string name="at_morning">Morning</string>
+    <string name="at_morning_time">6 AM-12 PM</string>
+    <string name="at_products_received">Products received - Tote %s</string>
+    <string name="at_location_activity">Location %s activity</string>
+    <string name="invalid_po_name">Invalid P.O. Name</string>
+    <string name="orders_have_invalid_name">Orders have Invalid P.O. Name</string>
+    <string name="order_detail_fragment_tag">OrderDetailFragmentTag</string>
+    <string name="cart_sync_existing_user_error_message">Your orders have been removed from your mobile app but can be found on the Order Express website from the last completed sync.</string>
+    <string name="cart_sync_existing_user_no_order_in_cart_error_message">These orders are still available on the Order Express website.</string>
+    <string name="dea_licence_expired_message">Your DEA license has expired. This account cannot order DEA regulated products until your license is renewed. </string>
+    <string name="state_licence_expired_message">Your State license has expired. This account cannot order State regulated products until your license is renewed. </string>
+    <string name="dea_state_licence_expired_message">Your DEA and State license has expired. This account cannot order DEA/State regulated products until your license is renewed. </string>
+    <string name="oa_banner_tap_to_analyze_order">Tap to analyze your orders for alternates.</string>
+    <string name="show_alternate">Show Alternate</string>
+    <string name="hide_alternate">Hide Alternate</string>
+    <string name="oa_expand">expand</string>
+    <string name="oa_collapse">collapse</string>
+    <string name="oa_eligibility_api_error_title">Something went wrong.\n Please try again.</string>
+    <string name="oa_eligibility_api_error_message">Tap ‘Review Alternates’ to try again. \n If this error occurs more than once,\n please try again later. </string>
+    <string name="review_alternate">Review Alternates</string>
+
+    <string name="oh_pagination_title">Showing: %s</string>
+    <string name="order_history_search_fragment_tag">OrderDetailFragmentTag</string>
+    <string name="order_total">Order Total</string>
+    <string name="order_status_label">Order Status</string>
+    <string name="order_method_label">Order Express</string>
+    <string name="order_date_label">Order Date</string>
+    <string name="search_in_order">Search In Order</string>
+    <string name="enter_po_details">Enter Purchase Order Details</string>
+    <string name="cancel_clear">Cancel/Clear</string>
+
+    <string name="oa_banner_not_available">OA is not available</string>
+    <string name="no_product_match_criteria">No products match your criteria.\n Please adjust the filters and try again.</string>
+    <string name="load_more_underlined"><u>Load more</u></string>
+    <string name="load_less_underlined"><u>Load less</u></string>
+    <string name="oa_no_alternate_line_item">There are no alternates to review.\n All the items in the order are your \n best options.</string>
+    <string name="oa_back_to_order">Back to Order</string>
+
+    <!-- Forgot Password Error Strings -->
+    <string name="forgot_password_error_title_login_failed">"Login Failed: "</string>
+    <string name="forgot_password_error_message_login_failed">Your device or login credential is not authorized to access order express.</string>
+    <string name="forgot_password_error_message_detail_login_failed">If you need further assistance, contact our service center at 1-800-326-6457</string>
+
+    <string name="forgot_password_error_title_invalid_user">"Invalid username and/or password: "</string>
+    <string name="forgot_password_error_message_invalid_user">Please try again or select Forgot Password below.</string>
+    <string name="forgot_password_error_invalid_user_hyper_link">Forgot Password</string>
+    <string name="enter_your_one_time_passcode">Enter your one-time passcode</string>
+    <string name="please_enter_the_one_time_passcode">Please enter the one-time passcode that was sent to your device.</string>
+    <string name="username_entered">Username entered:</string>
+    <string name="if_valid_username_was_entered">If a valid username was entered, you will receive the one-time passcode within a few minutes.</string>
+    <string name="if_you_need_further_assistance">If you need further assistance, contact our service center at <u>1-800-326-6457</u>.</string>
+    <string name="passcode">Passcode</string>
+    <string name="verify_passcode">Verify passcode</string>
+    <string name="resend_passcode">Resend passcode</string>
+    <string name="choose_different_authentication">Choose a different authentication method</string>
+    <string name="back_to_sign_in">Back to sign in</string>
+    <string name="please_enter_your_passcode">&#160;Please enter your passcode.</string>
+    <string name="check_your_mail">Check your email.</string>
+    <string name="reset_link_text">A reset link has just been sent to you.\n\nIf a valid username was entered, you will receive the email within a few minutes.</string>
+    <string name="update_your_password">Update your password</string>
+    <string name="please_complete_the_fields">Please complete the fields below to update your password.</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="update_password">Update password</string>
+    <string name="password_requirements">Password requirements</string>
+    <string name="at_least_8_characters">At least 8 characters</string>
+    <string name="a_lowercase_letter">A lowercase letter</string>
+    <string name="a_numeral">A numeral</string>
+    <string name="an_uppercase">An uppercase letter</string>
+    <string name="a_special_character">A special character\n(Ex. !@#$%&amp;)</string>
+    <string name="must_be_different">Must be different than your previous\n5 passwords.</string>
+    <string name="new_password_error">&#160;New passwords must match.</string>
+    <string name="requirements_arent_met">&#160;Requirements aren’t met, please review and try again.</string>
+    <string name="text_forgot_password_title">Forgot your password? Let’s get you back in.</string>
+    <string name="text_please_enter_the_username_associated_with_your_account_and_choose_a_password_reset_method">Please enter the username associated with your account and choose a password reset method.</string>
+    <string name="text_message_and_voice_call_can_only_be_used_if_a_phone_number_has_been_configured">Text message and voice call can only be used if a phone number has been configured.</string>
+    <string name="text_reset_via_text_message">Reset via text message</string>
+    <string name="text_receive_an_authentication_code_via_text">Receive an authentication code \nvia text.</string>
+    <string name="text_reset_via_voice_call">Reset via Voice Call</string>
+    <string name="text_receive_an_authentication_code_via_voice_call">Receive an authentication code \nvia voice call</string>
+    <string name="text_reset_via_email">Reset via Email</string>
+    <string name="text_receive_an_authentication_code_via_email">Receive an authentication code \nvia email.</string>
+    <string name="button_text_back_to_sign_in">Back to sign in</string>
+    <string name="text_forgot_password_image">Forgot Password Image</string>
+    <string name="youre_all_set">You’re all set!</string>
+    <string name="your_pasword_has_been">Your password has been updated, please sign in with your new credentials.</string>
+    <string name="update_sign_in">Sign in</string>
+    //Forgot Password
+    <string name="storage_permission_message">Allow Order Express to access your device files to download the guide.</string>
+    <string name="check_internet_connection">Please check your internet connection.</string>
+    <string name="something_went_wrong_try_again_later">Something went wrong. Please try again later.</string>
+
+    <string name="drop_ship_error">The Drop Ship item could not be submitted but it has got uploaded on the website and you can submit the same from there!</string>
+    <string name="image">Image</string>
+    <string name="legal_privacy_policy"><u>Legal  |  Privacy policy</u>\n©2022 Cardinal Health. All rights reserved.</string>
+    <string name="oa_replace_before_message">Maximum alternate product quantity available for replace is %1$s only.</string>
+    <string name="oa_replace_after_message">Maximum alternate product quantity available was %1$s and has been replaced.</string>
+    <string name="alerts">Alerts</string>
+    <string name="downloads">Downloads</string>
+
+    <!-- BackOrder feature strings -->
+    <string name="expand">expand</string>
+    <string name="bo_active_backorder_static_text_portrait">C2 products will expire after 55 days, \n all other products will expire after 120 days</string>
+    <string name="bo_active_backorder_static_text">C2 products will expire after 55 days, all other products will expire after 120 days</string>
+    <string name="bo_backorder_history_static_text">The items below detail the last 30 days of your Backorder History</string>
+    <string name="bo_active_no_data_title">There are no active backorders in your account.</string>
+    <string name="bo_active_no_data_description">C2 products will expire after 55 days, all other products will expire after 120 days.</string>
+    <string name="bo_history_no_data_title">Your backorder history is empty. </string>
+    <string name="bo_history_no_data_description">This will display the items from the last 30 days of your backorder history.</string>
+    <string name="bo_active_search_no_data_title">We couldn"'"t find %s in your \n active backorders.</string>
+    <string name="bo_history_search_no_data_title">We couldn"'"t find %s in your \n backorder history.</string>
+    <string name="bo_active_search_no_data_desc">Try searching for the product in the \n Backorder History tab</string>
+    <string name="bo_history_search_no_data_desc">Try searching for the product in the \n Active Backorder tab</string>
+    <!-- Temp Strings -->
+    <string name="bo_label_total_qty_requested">Total Quantity Requested: N/A</string>
+    <string name="bo_label_back_order_quantity">Backorder Qty: %s</string>
+    <string name="bo_label_back_order_quantity_format">Backorder Qty: %s</string>
+    <string name="bo_label_invoice_number">Invoice Number: N/A</string>
+    <string name="bo_label_est_shipping_date">Est Shipping Date: N/A</string>
+    <string name="bo_label_shipped_date">Shipped Date: N/A</string>
+    <string name="bo_label_never_substitute_this_item">Never Substitute This Item</string>
+    <string name="bo_label_reason">Reason: %s</string>
+    <string name="bo_label_mfr">MFR: %s</string>
+    <string name="bo_label_sales_order">Sales Order: N/A</string>
+    <string name="bo_label_expected_availability_in_dc">Expected Availability in DC: N/A</string>
+    <string name="bo_label_category_code">Category Code 2: %s</string>
+    <string name="bo_label_days_remaining_on_backorder">Days Remaining on Backorder: N/A</string>
+    <string name="bo_label_days_remaining_on_backorder_tablet">Days Remaining on \nBackorder: N/A</string>
+    <string name="bo_label_qty_shipped">Qty Shipped: N/A</string>
+    <string name="bo_label_cin">CIN: %s</string>
+    <string name="less_details">Less Details</string>
+    <string name="bo_no_data_screen_icon_content_desc">No Data Screen BO Icon</string>
+    <string name="which_of_these_products">Which of these products were you looking for?</string>
+    <string name="bo_ndc">NDC : </string>
+    <string name="bo_uoi">UOI :</string>
+    <string name="bo_amu">AMU :</string>
+    <string name="bo_cin">CIN :</string>
+    <string name="bo_mfr">MFR :</string>
+    <string name="bo_sales_order">Sales Order #: NA</string>
+    <string name="bo_qty_shipped">Qty Shipped:</string>
+    <string name="bo_shipped_date">Shipped Date:</string>
+    <string name="bo_invoice_number">Invoice Number:</string>
+    <string name="bo_category_code">Category Code :</string>
+    <string name="error_msg_fp"><b><![CDATA[Your passcode doesn’t match our records. ]]></b></string>
+    <string name="error_msg_se"><b><![CDATA[Your session has expired.]]></b></string>
+    <string name="error_msg"><![CDATA[Error! ]]></string>
+    <string name="please_try_again">Please try again or resend passcode</string>
+    <string name="please_return_to_fp">Please return to forgot password and try again</string>
+    <string name="error_code">Error No Internet</string>
+    <string name="password_reset_filename">PasswordResetGuide.pdf</string>
+
+    <string name="smart_order">Smart Order</string>
+    <string name="product_permanently_ignored">Product Permanently Ignored</string>
+    <string name="product_info_description">Your account is set to ignore items permanently. If you would like to only ignore items once, tap here to access your settings.</string>
+    <string name="cd_right_icon_for_switch">Right Icon Smart Order Switch</string>
+    <string name="feedback_other_category_errorText">Only alphanumeric characters, period, comma, underscore, and $ are allowed. Please try again.</string>
+    <string name="createNewOrder_errorText">Only alphanumeric characters, hyphens (-), and spaces are allowed. Please try again.</string>
+    <string name="addProducts">Add Products to:</string>
+    <string name="aoc_save_settings_success">Success!</string>
+    <string name="aoc_save_settings_updated">Settings have been updated</string>
+    <string name="aoc_feedback_submit">Feedback has been submitted.</string>
+    <string name="today_s_shipments">Today\’s Shipments</string>
+    <string name="last_updated">Last updated: </string>
+    <string name="refresh">Refresh</string>
+    <string name="delayed">Delayed</string>
+    <string name="delivered">Delivered</string>
+    <string name="in_transit">In transit</string>
+    <string name="shipment_id">Shipment ID : %s</string>
+    <string name="shipped">Shipped:</string>
+    <string name="go_to_receiving"><u>Go to Receiving</u></string>
+    <string name="expected_arrival">Expected arrival:</string>
+    <string name="arrived">Arrived:</string>
+    <string name="refresh_failed">Refresh failed</string>
+    <string name="dollar_zero_dot_zero">$0.0</string>
+    <string name="bo_tablet_qty_text">Backorder Qty:</string>
+    <string name="smart_order_category_selection_header">Customize your experience</string>
+    <string name="smart_order_category_selection_sub_header">Quick start you order by selecting from the categories below.</string>
+    <string name="smart_order_view_category">View Categories</string>
+    <string name="smart_order_view_products">View products</string>
+    <string name="smart_order_adding_to">Adding to</string>
+    <string name="smart_order_order_total">Order total</string>
+    <string name="smart_order_change_order">Change Order</string>
+    <string name="smart_order_view_order_in_cart">View order in cart</string>
+    <string name="smart_order_no_products">There are no new products to display.</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="prescription_text">Prescription</string>
+    <string name="partial_sync_error">Partial sync!</string>
+    <string name="partial_sync_retry">Please try again.</string>
+    <string name="partial_sync_label">Partial sync</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+
+    <!--For OE Vitals-->
+    <string name="oe_did_you_experience">Did you experience a technical problem with our application?</string>
+    <string name="oe_diagnosis">Diagnosis in progress</string>
+    <string name="oe_diagnosis_progress_message">This may take a minute</string>
+    <string name="oe_start_diagnosis">Start Diagnosis</string>
+    <string name="oe_app_permission_dialog_title">Phone permission necessary</string>
+    <string name="oe_app_permission_dialog_desc">Allow “Order Express” to access your network information logs to identify potential problems.</string>
+
+    <string name="offline">"Offline"</string>
+    <string name="wifi">"WIFI"</string>
+    <string name="ethernet">"Ethernet"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="five_G">"5G"</string>
+    <string name="four_G">"4G"</string>
+    <string name="three_G">"3G"</string>
+    <string name="two_G">"2G"</string>
+    <string name="unknown">"Unknown"</string>
+    <string name="button_text_oe_vitals_return_to_home">Return to Home</string>
+    <string name="button_text_oe_vitals_re_start_diagnosis">Re-Start Diagnosis</string>
+    <string name="text_oe_vitals_email_fail">There was a problem sending your diagnostic report, please try again.</string>
+    <string name="text_oe_vitals_email_success">Your diagnostic report has been sent.</string>
+
+    <string name="spark_scan_pref_dialog_tag">ScanPreferenceSelectionDialogFragment</string>
+    <string name="spark_screen_title">Try Spark Scan</string>
+    <string name="spark_screen_empty_screen_title">Scan Queue is Empty</string>
+    <string name="spark_screen_empty_screen_sub_title">Scan products to get started</string>
+    <string name="scan_product">Scan Products</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="spark_dialog_title">Would you like to provide feedback?</string>
+    <string name="spark_dialog_message">Thank you for testing the SparkScan feature. Before you leave, would you like to provide feedback about your experience?</string>
+    <string name="spark_provide_feedback">Provide Feedback</string>
+    <string name="spark_exit">Exit SparkScan</string>
+    <string name="view_more_categories"><u>View more categories</u></string>
+    <string name="create_multiple_locations">Or auto-create multiple locations</string>
+    <string name="select_all">Select All</string>
+    <string name="confirm_item">Confirm item</string>
+    <string name="clear_audit">Clear Audit</string>
+    <string name="lets_get_started">Let\'s get started with your audits</string>
+    <string name="go_to_audit_group">Go to audit group</string>
+    <string name="no_records_found">No records found. \nPlease try a different item.</string>
+    <string name="cim_coachmark_close_link"><u>Close</u></string>
+    <string name="oe_message">Tap on <b>Start Diagnosis</b> to create a diagnostic system report that will automatically be sent to our team along with your comments.</string>
+    <string name="oe_describe_your_problem">Describe your problem (Optional)</string>
+    <string name="scan_pref_selection_title">How do you want to scan?</string>
+    <string name="scan_pref_selection_dec">Selecting Add to cart automatically places\n items you scan in the default cart.</string>
+
+    <string name="scan_network_issue">Network issue</string>
+    <string name="please_make_sure_device">Please make sure the device you\'re using is connected to the Internet.</string>
+    <string name="the_item_is">The item is not included in the catalogue. Please try another item.</string>
+    <string name="scan_image_not">Image not supported</string>
+    <string name="your_image_type">Your image type or resolution is not supported. Only PNG, JPG &amp; JPEG filetypes are valid.</string>
+    <string name="browse_images">Browse images</string>
+    <string name="scan_device_issue">Device issue</string>
+    <string name="this_device_is_not">The device is not compatible with our scanner. Send us your device diagnostics report and help improve our scanner</string>
+    <string name="scan_barcode_not">Barcode not supported</string>
+    <string name="this_barcode_is_not">The barcode is not supported. Send a report of your barcode data to help improve our scanner</string>
+    <string name="send_error_report">Send error report</string>
+    <string name="send_device_diagnostics">Send device diagnostics</string>
+    <string name="barcode_error">Barcode error</string>
+    <string name="check_the_bar_code">Check the bar code number, enter the number in the search bar or scan another item.</string>
+
+    <string name="one_x">1x</string>
+    <string name="two_x">2x</string>
 </resources>

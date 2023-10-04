@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_receive_an_authentication_code_via_text">Receive an authentication code via text.</string>
+    <string name="text_receive_an_authentication_code_via_voice_call">Receive an authentication code via voice call</string>
+    <string name="text_receive_an_authentication_code_via_email">Receive an authentication code via email.</string>
+</resources>

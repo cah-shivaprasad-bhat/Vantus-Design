@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><!--7 inch tablet landscape styles file -->
+<!--drawable-large-land-->
+<resources>
+
+    <!-- START:: Used for Rescaling ui -->
+    <style name="ActionButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/height_actionbutton_login</item>
+        <item name="android:theme">@style/BlackTheme</item>
+        <item name="android:minWidth">@dimen/min_height_actionbutton_login</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">@dimen/gap_0</item>
+        <item name="android:insetTop">@dimen/gap_0</item>
+        <item name="android:insetBottom">@dimen/gap_0</item>
+        <item name="android:textSize">@dimen/font_size_actionbutton_login</item>
+    </style>
+
+    <style name="oe_search_item_addToOrderButtonLayout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginEnd">@dimen/gap_20</item>
+        <item name="android:layout_marginTop">@dimen/gap_12</item>
+    </style>
+
+    <style name="oe_search_ineligible_item_title">
+        <item name="android:layout_marginStart">@dimen/gap_16</item>
+        <item name="android:layout_marginEnd">@dimen/gap_16</item>
+        <item name="android:layout_marginTop">@dimen/gap_20</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">@style/SubheadingBlackLeft</item>
+    </style>
+
+    <style name="itemAllOrdersScreenCardViewStyle">
+        <item name="android:layout_marginTop">@dimen/gap_16</item>
+        <item name="android:layout_marginStart">@dimen/gap_16</item>
+        <item name="android:layout_marginEnd">@dimen/gap_8</item>
+        <item name="cardElevation">@dimen/gap_4</item>
+        <item name="cardCornerRadius">@dimen/gap_4</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="cvForgotPasswordErrorView">
+        <item name="android:layout_width">@dimen/gap_0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/gap_24</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingStart">@dimen/start_margin_login</item>
+        <item name="android:paddingEnd">@dimen/end_margin_login</item>
+    </style>
+    <!-- END:: Used for Rescaling ui -->
+
+    <style name="receiving_detail_header_layout_style">
+        <item name="android:background">@color/light_grey</item>
+        <item name="android:layout_marginStart">@dimen/gap_16</item>
+        <item name="android:layout_marginEnd">@dimen/gap_16</item>
+    </style>
+
+    <style name="oe_tv_report_medium">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginStart">@dimen/gap_228</item>
+        <item name="android:layout_marginEnd">@dimen/gap_228</item>
+        <item name="android:paddingStart">@dimen/gap_20</item>
+        <item name="android:paddingEnd">@dimen/gap_20</item>
+        <item name="android:textAppearance">@style/OeVitalMediumBlack</item>
+    </style>
+
+    <style name="oe_tv_report_medium_small">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginStart">@dimen/gap_228</item>
+        <item name="android:layout_marginEnd">@dimen/gap_228</item>
+        <item name="android:layout_marginTop">@dimen/gap_50</item>
+        <item name="android:paddingStart">@dimen/gap_20</item>
+        <item name="android:paddingEnd">@dimen/gap_20</item>
+        <item name="android:textAppearance">@style/OeVitalMediumBlackSmall</item>
+    </style>
+
+    <style name="oe_tv_report_edit_text_layout_style" parent="TextInputBox">
+        <item name="android:layout_marginStart">@dimen/gap_228</item>
+        <item name="android:layout_marginEnd">@dimen/gap_228</item>
+        <item name="android:layout_marginTop">@dimen/gap_30</item>
+        <item name="boxStrokeColor">@color/box_stroke_color</item>
+        <item name="boxStrokeWidth">@dimen/gap_1</item>
+        <item name="boxStrokeWidthFocused">@dimen/gap_1</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="edit_text_inventory_name_length">34</integer>
+    <integer name="edit_text_location_name_length">25</integer>
+    <integer name="location_three">3</integer>
+    <integer name="int_zero">0</integer>
+    <integer name="int_one">1</integer>
+    <integer name="int_two">2</integer>
+    <integer name="int_four">4</integer>
+    <integer name="int_six">6</integer>
+    <integer name="int_36">36</integer>
+    <integer name="int_20">20</integer>
+    <integer name="int_24">24</integer>
+    <integer name="select_order_warning_max_lines">3</integer>
+    <integer name="utn_length">9</integer>
+    <integer name="int_90">90</integer>
+    <integer name="int_hundred_eighty">180</integer>
+    <integer name="int_two_fifty">250</integer>
+</resources>

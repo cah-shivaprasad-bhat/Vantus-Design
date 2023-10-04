@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="smartListName" />
+    <item type="id" name="sectionName" />
+    <item type="id" name="item" />
+    <bool name="is600dp">false</bool>
+    <bool name="is720dp">false</bool>
+</resources>

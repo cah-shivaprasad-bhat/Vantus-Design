@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--7 inch tablet portrait dimension file -->
+<resources>
+    <!-- START:: Used for Rescaling ui -->
+
+
+    <!--For Login Screen-->
+    <dimen name="width_logo_login">160dp</dimen>
+    <dimen name="height_logo_login">114dp</dimen>
+    <dimen name="top_margin_logo_login">40dp</dimen>
+    <dimen name="top_margin_title_login">34dp</dimen>
+    <dimen name="top_margin_username_login">20dp</dimen>
+    <dimen name="width_textinputbox_login">324dp</dimen>
+    <dimen name="height_edittext_login">48dp</dimen>
+    <dimen name="start_padding_edittext_login">16dp</dimen>
+    <dimen name="end_padding_edittext_login">16dp</dimen>
+    <dimen name="font_size_edittext_login">@dimen/sp_11</dimen>
+    <dimen name="top_margin_edittext_password">@dimen/gap_14</dimen>
+    <dimen name="top_margin_textbutton_login">@dimen/gap_24</dimen>
+    <dimen name="font_size_textbutton_login">@dimen/sp_12</dimen>
+    <dimen name="width_actionbutton_login">@dimen/width_textinputbox_login</dimen>
+    <dimen name="height_actionbutton_login">44dp</dimen>
+    <dimen name="font_size_actionbutton_login">@dimen/sp_16</dimen>
+    <dimen name="margin_bottom">@dimen/gap_10</dimen>
+    <dimen name="top_margin_actionbutton_login">32dp</dimen>
+    <dimen name="enterOTPLeft_guideline">0.20</dimen>
+    <dimen name="enterOTPRight_guideline">0.80</dimen>
+    <!-- END:: Used for Rescaling ui -->
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="search_results">
+        <item quantity="one">%d search result</item>
+        <item quantity="other">%d search results</item>
+    </plurals>
+
+    <plurals name="total_number_of_orders">
+        <item quantity="one">%d\nMobile Order</item>
+        <item quantity="other">%d\nMobile Orders</item>
+    </plurals>
+
+    <plurals name="total_number_of_lines">
+        <item quantity="one">%d\nLine</item>
+        <item quantity="other">%d\nLines</item>
+    </plurals>
+
+    <plurals name="item_total_number_of_lines">
+        <item quantity="one">%d Line</item>
+        <item quantity="other">%d Lines</item>
+    </plurals>
+
+    <plurals name="number_of_lines_in_order">
+        <item quantity="one">%d Line in the order</item>
+        <item quantity="other">%d Lines in the order</item>
+    </plurals>
+
+    <plurals name="continue_on_desktop_body">
+        <item quantity="one">If you select “Continue” you will be sending the following order to the desktop Order Express and you will no longer have access from the app</item>
+        <item quantity="other">If you select “Continue” you will be sending the following orders to the desktop Order Express and you will no longer have access from the app</item>
+    </plurals>
+
+    <plurals name="continue_orders_on_desktop">
+        <item quantity="one">Continue order on the desktop?</item>
+        <item quantity="other">Continue orders on the desktop?</item>
+    </plurals>
+
+    <plurals name="cancel_and_keep_orders">
+        <item quantity="one">Cancel and keep order on the app</item>
+        <item quantity="other">Cancel and keep orders on the app</item>
+    </plurals>
+
+    <plurals name="all_orders_sent_on_desktop_msg">
+        <item quantity="one">Order has been sent to desktop.</item>
+        <item quantity="other">All orders have been sent to desktop.</item>
+    </plurals>
+
+    <plurals name="place_orders_title">
+        <item quantity="one">Your order will be placed</item>
+        <item quantity="other">Your orders will be placed</item>
+    </plurals>
+
+    <plurals name="place_orders_body">
+        <item quantity="one">Your order will go into processing immediately. </item>
+        <item quantity="other">Your orders will go into processing immediately. </item>
+    </plurals>
+
+    <plurals name="place_my_orders">
+        <item quantity="one">Place My Order</item>
+        <item quantity="other">Place My Orders</item>
+    </plurals>
+
+    <plurals name="review_my_orders">
+        <item quantity="one">Go Back and Review My Order</item>
+        <item quantity="other">Go Back and Review My Orders</item>
+    </plurals>
+
+    <plurals name="orders_downloaded_title">
+        <item quantity="one">Your order has been copied to your mobile cart</item>
+        <item quantity="other">Your orders have been copied to your mobile cart</item>
+    </plurals>
+
+    <plurals name="orders_continue_working">
+        <item quantity="one">You can now continue working on your order.</item>
+        <item quantity="other">You can now continue working on your orders.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--9 inch tablet landscape styles file -->
+<resources>
+
+    <!-- START:: Used for Rescaling ui -->
+    <style name="oe_search_item_addToOrderButtonLayout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginEnd">@dimen/gap_20</item>
+        <item name="android:layout_marginTop">@dimen/gap_12</item>
+    </style>
+
+    <style name="oe_search_item_orderQtyHolder">
+        <item name="android:layout_marginEnd">@dimen/gap_20</item>
+        <item name="android:layout_marginTop">@dimen/gap_12</item>
+        <item name="android:background">@color/products_search_bg</item>
+    </style>
+
+    <style name="cvForgotPasswordErrorView">
+        <item name="android:layout_width">@dimen/gap_0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/gap_24</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingStart">@dimen/start_margin_login</item>
+        <item name="android:paddingEnd">@dimen/end_margin_login</item>
+    </style>
+    <!-- END:: Used for Rescaling ui -->
+
+
+</resources>
