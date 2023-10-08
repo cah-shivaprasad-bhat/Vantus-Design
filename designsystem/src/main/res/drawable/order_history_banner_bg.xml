@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/alizarin_crimson" />
+        </shape>
+    </item>
+
+    <item
+            android:id="@+id/item_logo"
+            android:drawable="@drawable/ic_order_history_logo"
+            android:top="-24dp"
+            android:end="-20dp"
+            android:gravity="top|end" />
+</layer-list>

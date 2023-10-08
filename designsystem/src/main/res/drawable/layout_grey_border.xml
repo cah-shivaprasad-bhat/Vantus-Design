@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                    android:width="@dimen/gap_2"
+                    android:color="@color/mercury"
+                    />
+            <padding
+                    android:bottom="@dimen/gap_0"
+                    android:left="@dimen/gap_0"
+                    android:right="@dimen/gap_0"
+                    android:top="@dimen/gap_0"
+                    />
+        </shape>
+    </item>
+    <item
+            android:bottom="@dimen/gap_1"
+            android:top="@dimen/gap_1">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+</layer-list>

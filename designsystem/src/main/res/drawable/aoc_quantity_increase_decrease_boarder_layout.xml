@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/gap_minus_1"
+        android:left="@dimen/gap_1"
+        android:right="@dimen/gap_1"
+        android:top="@dimen/gap_1">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="@dimen/gap_0"
+                android:color="@color/products_search_bg" />
+            <solid android:color="@color/products_search_bg" />
+            <corners
+                android:topLeftRadius="@dimen/gap_4"
+                android:topRightRadius="@dimen/gap_4"
+                android:bottomLeftRadius="@dimen/gap_4"
+                android:bottomRightRadius="@dimen/gap_4"/>
+        </shape>
+    </item>
+</layer-list>

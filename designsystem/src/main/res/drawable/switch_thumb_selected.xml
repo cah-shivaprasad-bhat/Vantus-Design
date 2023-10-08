@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/gap_4"
+        android:end="@dimen/gap_4"
+        android:start="@dimen/gap_4"
+        android:state_checked="true"
+        android:top="@dimen/gap_4">
+        <shape android:shape="oval">
+            <solid android:color="@color/aoc_setting_saved_success_dialog_title" />
+            <size
+                android:width="@dimen/gap_32"
+                android:height="@dimen/gap_32" />
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/gap_4"
+        android:drawable="@drawable/ic_done_green"
+        android:end="@dimen/gap_4"
+        android:start="@dimen/gap_4"
+        android:top="@dimen/gap_4" />
+</layer-list>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:color="@color/smart_order_popup_border" />
+            <solid android:color="@color/bg_smart_order_background"/>
+            <corners android:radius="@dimen/gap_8" />
+        </shape>
+    </item>
+    <item
+        android:height="@dimen/gap_6"
+        android:gravity="top"
+        android:top="@dimen/gap_1">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/smart_order_popup_border"/>
+            <corners android:topLeftRadius="@dimen/gap_8"
+                android:topRightRadius="@dimen/gap_8" />
+        </shape>
+    </item>
+</layer-list>
