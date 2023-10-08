@@ -28,7 +28,6 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/white</item>
-        <item name="colorAccent">@color/cherry_red</item>
     </style>
 
     <style name="SplashTheme" parent="AppTheme.NoActionBar">
@@ -3798,7 +3797,6 @@
         <item name="android:background">@drawable/bg_white_top_rounded_rectangle</item>
         <item name="android:drawableStart">@drawable/ic_account_red</item>
         <item name="android:gravity">left|center_vertical</item>
-        <item name="drawablePadding">@dimen/gap_10</item>
         <item name="android:paddingStart">@dimen/gap_20</item>
         <item name="android:paddingEnd">@dimen/gap_8</item>
         <item name="android:paddingTop">@dimen/gap_24</item>

@@ -168,6 +168,46 @@
     <dimen name="letter_spacing_16">0.16</dimen>
     <dimen name="carts_toolbar_height_with_search">120dp</dimen>
 
+    <dimen name="elevation_minus">-1dp</dimen>
+    <!-- commonly dimens used for others  -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">180dp</dimen>
+    <dimen name="view_pager_height">230dp</dimen>
+    <dimen name="toolbar_height">64dp</dimen>
+    <dimen name="toolbar_btn_width">64dp</dimen>
+    <dimen name="carts_toolbar_height">126dp</dimen>
+    <dimen name="today_top_margin">42dp</dimen>
+    <dimen name="today_bottom_margin">24dp</dimen>
+
+    <!-- START:: Used for Rescaling ui -->
+    <!--For Login Screen-->
+    <dimen name="width_logo_login">174dp</dimen>
+    <dimen name="height_logo_login">138dp</dimen>
+    <dimen name="top_margin_logo_login">30dp</dimen>
+    <dimen name="start_margin_logo_login">0dp</dimen>
+    <dimen name="end_margin_logo_login">0dp</dimen>
+    <dimen name="top_margin_title_login">30dp</dimen>
+    <dimen name="font_size_header_login">@dimen/sp_24</dimen>
+    <dimen name="start_margin_login">28dp</dimen>
+    <dimen name="end_margin_login">28dp</dimen>
+    <dimen name="top_margin_username_login">20dp</dimen>
+    <dimen name="width_textinputbox_login">305dp</dimen>
+    <dimen name="height_edittext_login">48dp</dimen>
+    <dimen name="start_padding_edittext_login">16dp</dimen>
+    <dimen name="end_padding_edittext_login">16dp</dimen>
+    <dimen name="font_size_edittext_login">@dimen/sp_16</dimen>
+    <dimen name="top_margin_edittext_password">@dimen/gap_16</dimen>
+    <dimen name="font_size_textbutton_login">@dimen/sp_16</dimen>
+    <dimen name="width_actionbutton_login">@dimen/gap_0</dimen>
+    <dimen name="height_actionbutton_login">54dp</dimen>
+    <dimen name="min_height_actionbutton_login">163dp</dimen>
+    <dimen name="top_margin_textbutton_login">@dimen/gap_16</dimen>
+    <dimen name="font_size_actionbutton_login">@dimen/sp_16</dimen>
+    <dimen name="top_margin_actionbutton_login">16dp</dimen>
+    <dimen name="margin_bottom">@dimen/gap_30</dimen>
+    <dimen name="margin_start">@dimen/gap_32</dimen>
+    <dimen name="more_screen_icon_size">@dimen/gap_30</dimen>
+
     <!-- END:: Used for Rescaling ui -->
     <dimen name="bias_0_0">0.0</dimen>
     <dimen name="bias_0_01">0.01</dimen>
