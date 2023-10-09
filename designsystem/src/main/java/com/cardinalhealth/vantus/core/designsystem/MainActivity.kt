@@ -1,7 +1,8 @@
-package com.cardinalhealth.designsystem
+package com.cardinalhealth.vantus.core.designsystem
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.cardinalhealth.designsystem.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
